@@ -1,0 +1,20 @@
+Schedule 1:
+MWF - DATA_ENG from 09:30 to 10:50
+TR - COMP_SCI 212-0 from 14:30 to 15:45
+M - PSYH 123 from 07:00 to 07:30
+
+Schedule 2:
+MWF - DATA_ENG from 09:30 to 10:50
+TR - COMP_SCI 212-0 from 15:30 to 16:45
+M - PSYH 123 from 07:00 to 07:30
+
+Schedule 3:
+MWF - DATA_ENG from 08:00 to 8:50
+TR - COMP_SCI 212-0 from 14:30 to 15:45
+M - PSYH 123 from 07:00 to 07:30
+
+Schedule 4:
+MWF - DATA_ENG from 08:00 to 8:50
+TR - COMP_SCI 212-0 from 15:30 to 16:45
+M - PSYH 123 from 07:00 to 07:30
+

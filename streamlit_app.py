@@ -23,11 +23,14 @@ with st.form("input_of_courses", clear_on_submit=False, enter_to_submit=True):
     # PART 1: TAKING USER INPUT
     st.write("FORM")
     st.markdown("Enter a list of classes in the following format (use the 24-hour time format):")
-    st.markdown("DATA_ENG, MWF, 09:30, 10:50")
-    st.markdown("DATA_ENG, MWF, 08:00, 8:50")
-    st.markdown("COMP_SCI 212-0, TR, 14:30, 15:45")
-    st.markdown("COMP_SCI 212-0, TR, 15:30, 16:45")
-    st.markdown("PSYH 123, M, 07:00, 07:30")
+    st.markdown("Math 22, MWF, 09:00, 10:50")
+    st.markdown("Math 22, MWF, 11:00, 12:50")
+    st.markdown("English 33, MWF, 08:00, 9:50")
+    st.markdown("English 33, MWF, 12:00, 13:50")
+    st.markdown("History 55, MWF, 14:00, 15:50")
+    st.markdown("History 55, TR, 16:30, 17:50")
+    st.markdown("Biology 88, MWF, 10:00, 10:55")
+    st.markdown("Biology 88, TR, 11:00, 12:20")
     user_cls = st.text_area("Please put one class section on each line (empty lines are acceptable), or copy and paste the above example:")
     user_gap = st.number_input("What is minimum gap (number of minutes) between classes? (Think: Passing period time)",
                     min_value=0, max_value=240, step=1)
@@ -35,6 +38,9 @@ with st.form("input_of_courses", clear_on_submit=False, enter_to_submit=True):
 
     # PART 2: PARSING AND WHEN SUBMITTING FORM
     submitted_01 = st.form_submit_button(label="SUBMIT")
+    st.write("If there is an error, you need to format the classes properly.")
+
+st.write("Created by Allan Jiang")
 
 if submitted_01:
     st.write("Generating schedule now...")

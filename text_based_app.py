@@ -5,15 +5,15 @@ from visualizer import vysualize
 # UPDATE THE classes VARIABLE and MIN_GAP_MINUTES constant
 classes = [
     [
-        {'day': 'MTW', 'name': '1asdfasdf 200-0', 'begtime': '9:30', 'endtime': '10:50'},
-        {'day': 'MWF', 'name': '1asdfasdf 200-0', 'begtime': '8:30', 'endtime': '8:50'},
-        {'day': 'TR', 'name': '1asdfasdf 200-0', 'begtime': '9:30', 'endtime': '10:50'},
+        {'day': 'MTW', 'name': 'World History H 20', 'begtime': '9:30', 'endtime': '10:50'},
+        {'day': 'MWF', 'name': 'World History H 20', 'begtime': '8:30', 'endtime': '8:50'},
+        {'day': 'TR', 'name': 'World History H 20', 'begtime': '9:30', 'endtime': '10:50'},
     ],
     [
-        {'day': 'MWF', 'name': 'COMP_SCI 212-0', 'begtime': '11:00', 'endtime': '11:50'},
+        {'day': 'MWF', 'name': 'English 21', 'begtime': '11:00', 'endtime': '11:50'},
     ],
     [
-        {'day': 'TR', 'name': 'COMP_SCI 211-0', 'begtime': '12:30', 'endtime': '13:50'},
+        {'day': 'TR', 'name': 'Science 21', 'begtime': '12:30', 'endtime': '13:50'},
     ],
     [
         {'day': 'MW', 'name': 'PSYCH 221-0', 'begtime': '15:30', 'endtime': '16:50'}

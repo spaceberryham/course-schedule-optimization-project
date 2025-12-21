@@ -19,3 +19,12 @@ Uses the methods in the previous three .py files to run the program
 ## Streamlit
 
 TO RUN, USE streamlit run streamlit_app.py
+
+## App Screenshots
+
+[Live Demo](https://course-schedule-optimization-project-qhpx3xzrbbfdnggzglqidt.streamlit.app/)
+
+URL: https://course-schedule-optimization-project-qhpx3xzrbbfdnggzglqidt.streamlit.app/
+
+![Input 1](assets/input_01.png)
+![Output 1](assets/output_01.png)

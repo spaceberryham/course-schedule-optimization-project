@@ -4,7 +4,7 @@
 
 I have four python files as part of my program to generate all possible class schedule options at a university given the possible class times.
 
-### (1) SchCombos.py
+### (1) schedule_combinations.py
 Takes in one list of lists of dictionaries and prints a list of a possible schedule combinations to valid_schedules.txt
 
 ### (2) converter.py
@@ -18,7 +18,9 @@ Uses the methods in the previous three .py files to run the program
 
 ## Streamlit
 
-TO RUN, USE streamlit run streamlit_app.py
+TO RUN, FIRST CLONE, THEN USE:
+pip install -r requirements.txt
+streamlit run streamlit_app.py
 
 ## App Screenshots
 

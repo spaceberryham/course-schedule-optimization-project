@@ -19,7 +19,9 @@ Uses the methods in the previous three .py files to run the program
 ## Streamlit
 
 TO RUN, FIRST CLONE, THEN USE:
+
 pip install -r requirements.txt
+
 streamlit run streamlit_app.py
 
 ## App Screenshots
